@@ -1,0 +1,8 @@
+Log-rank P-value for groups 1 and 2 :
+[1] 0.005538187
+
+Log-rank P-value for groups 1 and 3 :
+[1] 0.01874296
+
+Log-rank P-value for groups 2 and 3 :
+[1] 0.6344625

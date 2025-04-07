@@ -1,0 +1,63 @@
+###############################Cox——LNP,NMT,MT
+Comparison between 1 and 2 :
+Call:
+coxph(formula = Surv(time_OS, OS_status) ~ treat_1, data = data_subset)
+
+  n= 16, number of events= 15 
+
+            coef exp(coef) se(coef)      z Pr(>|z|)  
+treat_12 -1.9757    0.1387   0.8123 -2.432    0.015 *
+treat_13      NA        NA   0.0000     NA       NA  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+         exp(coef) exp(-coef) lower .95 upper .95
+treat_12    0.1387      7.212   0.02822    0.6814
+treat_13        NA         NA        NA        NA
+
+Concordance= 0.698  (se = 0.05 )
+Likelihood ratio test= 7.66  on 1 df,   p=0.006
+Wald test            = 5.92  on 1 df,   p=0.02
+Score (logrank) test = 7.68  on 1 df,   p=0.006
+
+
+Comparison between 1 and 3 :
+Call:
+coxph(formula = Surv(time_OS, OS_status) ~ treat_1, data = data_subset)
+
+  n= 22, number of events= 20 
+
+            coef exp(coef) se(coef)      z Pr(>|z|)  
+treat_12      NA        NA   0.0000     NA       NA  
+treat_13 -1.1714    0.3099   0.5269 -2.223   0.0262 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+         exp(coef) exp(-coef) lower .95 upper .95
+treat_12        NA         NA        NA        NA
+treat_13    0.3099      3.226    0.1104    0.8705
+
+Concordance= 0.629  (se = 0.064 )
+Likelihood ratio test= 4.75  on 1 df,   p=0.03
+Wald test            = 4.94  on 1 df,   p=0.03
+Score (logrank) test = 5.38  on 1 df,   p=0.02
+
+
+Comparison between 2 and 3 :
+Call:
+coxph(formula = Surv(time_OS, OS_status) ~ treat_1, data = data_subset)
+
+  n= 20, number of events= 19 
+
+           coef exp(coef) se(coef)     z Pr(>|z|)
+treat_11     NA        NA   0.0000    NA       NA
+treat_13 0.2506    1.2848   0.5073 0.494    0.621
+
+         exp(coef) exp(-coef) lower .95 upper .95
+treat_11        NA         NA        NA        NA
+treat_13     1.285     0.7783    0.4754     3.472
+
+Concordance= 0.572  (se = 0.07 )
+Likelihood ratio test= 0.25  on 1 df,   p=0.6
+Wald test            = 0.24  on 1 df,   p=0.6
+Score (logrank) test = 0.25  on 1 df,   p=0.6
