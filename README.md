@@ -1,12 +1,4 @@
-# Linear Optimal Low Rank Projection (lolR)
-
-
-[![CRAN Status Badge](http://www.r-pkg.org/badges/version/lolR)](http://cran.r-project.org/web/packages/lolR)
-[![arXiv shield](https://img.shields.io/badge/arXiv-1709.01233-red.svg?style=flat)](https://arxiv.org/abs/1709.01233)
-[![Travis-CI Build Status](https://travis-ci.org/neurodata/lol.svg?branch=master)](https://travis-ci.org/neurodata/lol)
-[![Codecov status](https://codecov.io/gh/neurodata/lol/branch/master/graph/badge.svg)](https://codecov.io/gh/neurodata/lol)
-[![Downloads badge](https://cranlogs.r-pkg.org/badges/lolR)](https://cranlogs.r-pkg.org/badges/lolR)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1246979.svg)](https://doi.org/10.5281/zenodo.1246979)
+# Molecule-matched personalized combination therapies provide improved survival outcomes for hyperprogressive disease after immune checkpoint inhibitor therapy: a retrospective study from the molecular tumor board registry database
 
 
 ## Contents
@@ -32,32 +24,6 @@ Supervised learning techniques designed for the situation when the dimensionalit
 - [man](./man): package manual for help in R session.
 - [tests](./tests): `R` unit tests written using the `testthat` package.
 - [vignettes](./vignettes): `R` vignettes for R session html help pages.
-
-
-# System Requirements
-
-## Hardware Requirements
-
-The `lol` package requires only a standard computer with enough RAM to support the operations defined by a user. For minimal performance, this will be a computer with about 2 GB of RAM. For optimal performance, we recommend a computer with the following specs:
-
-RAM: 16+ GB  
-CPU: 4+ cores, 3.3+ GHz/core
-
-The runtimes below are generated using a computer with the recommended specs (16 GB RAM, 4 cores@3.3 GHz) and internet of speed 25 Mbps.
-
-## Software Requirements
-
-### OS Requirements
-
-The package development version is tested on *Linux* operating systems. The developmental version of the package has been tested on the following systems:
-
-Linux: Ubuntu 16.04  
-Mac OSX:  
-Windows:  
-
-The CRAN package should be compatible with Windows, Mac, and Linux operating systems.
-
-Before setting up the `lolR` package, users should have `R` version 3.4.0 or higher, and several packages set up from CRAN.
 
 #### Installing R version 3.4.2 on Ubuntu 16.04
 
